@@ -1,6 +1,6 @@
 Name:           colord-kde
 Version:        0.3.0
-Release:        3%{?dist}
+Release:        1%{?dist}
 Summary:        Colord support for KDE
 
 License:        GPLv2+
@@ -47,12 +47,6 @@ make install/fast DESTDIR=%{buildroot} -C %{_target_platform}
 %{_kde4_datadir}/applications/kde4/colordkdeiccimporter.desktop
 
 %changelog
-* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.3.0-3
-- Mass rebuild 2014-01-24
-
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.3.0-2
-- Mass rebuild 2013-12-27
-
 * Mon May 27 2013 Lukáš Tinkl <ltinkl@redhat.com> - 0.3.0-1
 - New upstream version 0.3.0
 
